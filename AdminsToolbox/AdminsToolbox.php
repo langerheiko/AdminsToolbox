@@ -8,10 +8,10 @@ Class AdminsToolboxPlugin extends MantisPlugin {
 	
 	function register() {
 		$this->name		= 'Administrator\'s Toolbox';
-		$this->description 	= 'Contains some tools that should make Admins life easier.<br />- Displays an input field and button on "manage_user_edit_page" to change a users password directly.<br />- Displays access level dropdown on "manage_proj_edit_page" in manage accounts list.';
+		$this->description 	= 'Contains some tools that should make Admins life easier.<br />- Displays an input field and button on "manage_user_edit_page" to change a users password directly.<br />- Displays access level dropdown on "manage_proj_edit_page" in manage accounts list.<br />- Display all bugs a user is assigned to on "manage_user_edit_page"';
 		//$this->page		= plugin_page( 'manage_tools' );
 
-		$this->version		= '0.1';
+		$this->version		= '0.2';
 		$this->requires		= array('MantisCore' => '1.2.14');
 		
 		$this->author		= 'eCola GmbH, Heiko Schneider-Lange';

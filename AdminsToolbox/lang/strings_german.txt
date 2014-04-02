@@ -4,4 +4,6 @@ $s_plugin_AdminsToolbox_change_password = 'Passwort ändern';
 $s_plugin_AdminsToolbox_password_length = 'Geben Sie ein Passwort mit mindestens 6 Zeichen ein!';
 $s_plugin_AdminsToolbox_password_success = 'Das neue Passwort wurde erfolgreich gesetzt.';
 $s_plugin_AdminsToolbox_plugin_title = 'Administrators Toolbox';
+$s_plugin_AdminsToolbox_assigned_issues = 'Zugewiesene Einträge';
+$s_plugin_AdminsToolbox_view_issues_filter = 'Als Filter öffnen';
 
