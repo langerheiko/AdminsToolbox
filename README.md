@@ -1,7 +1,7 @@
 AdminsToolbox
 =============
 
-Works with MantisBT 1.2.14.
+Works with MantisBT 1.2.14 & 1.2.19.
 
 This plugin for Mantis Bugtracker brings some additions for administrators:
 - Allows administrators to set a new password directly (you get a password input field on manage_user_edit_page.php and a button to set the new password)
