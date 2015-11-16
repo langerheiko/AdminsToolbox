@@ -45,7 +45,7 @@ $(document).ready(function() {
 	frm.children('#submit_newpassw').on('click', function(){
 		if($('#new_passw').val().length > 5){
 		$.post(
-			\"plugins/AdminSetPassword/pages/ajax.php\", 
+			\"plugins/AdminsToolbox/pages/ajax.php\", 
 			{user_id: $('input[name=\"user_id\"]').val(),
 			 new_passw:$('#new_passw').val(),
 			 manage_user_reset_token:$('input[name=\"manage_user_reset_token\"]').val()
